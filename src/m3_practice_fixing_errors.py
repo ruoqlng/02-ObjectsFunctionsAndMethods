@@ -30,6 +30,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #   When finished, COMMIT-and-PUSH your work, as always.
 #
 ###############################################################################
+import math
 
 import rosegraphics as rg
 
@@ -42,10 +43,10 @@ def main():
 
 def print_math():
     """ Prints some calculated values. """
-    x = -1
+    x = math.cos(math.pi)
     print(x)
 
-    y = 0
+    y = math.sin(math.pi)
     print(y)
 
 
